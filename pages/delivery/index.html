@@ -7,7 +7,7 @@
         <title>delivery form page</title>
     </head>
     <body>
-        <form action="../main/index.html" method="get">
+        <form action="#" method="get" id="form">
             <h2>Shipping details</h2>
             <label for="name"
                 >FIRST
@@ -36,10 +36,12 @@
             </label>
             <h2>Payment information</h2>
             <label for="card">
-                <input type="radio" name="card-cash" id="card" checked /> Card
+                <input type="radio" name="card-cash" id="card" checked />
+                Card
             </label>
             <label for="cash">
-                <input type="radio" name="card-cash" id="cash" /> Cash
+                <input type="radio" name="card-cash" id="cash" />
+                Cash
             </label>
             <h2>Choose 2 gifts (optional)</h2>
 
@@ -79,7 +81,10 @@
                 />
                 branded pen or pencil
             </label>
-            <button type="submit">SUBMIT</button>
+            <button type="submit" class="submit-form-btn">SUBMIT</button>
         </form>
+        <footer>
+            <a href="../main/index.html">Main Page</a>
+        </footer>
     </body>
 </html>

@@ -1,7 +1,35 @@
-.book-container {
- border: 2px solid #123456;
- background-color: #fff222;
- margin: 5px;
- padding: 5px;
- width: 50%;
+.container {
+  position: relative;
+}
+.book-container, .bag {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid #123456;
+  background-color: #fff222;
+  margin: 5px;
+  padding: 5px;
+  width: 40%;
+  font-size: 24px;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  text-align: center;
+  font-weight: 400;
+  font-size: 72px;
+  color: #070722;
+}
+.description {
+  display: none;
+}
+/* .popup {
+  display: none;
+} */
+.show-more-btn {
+  padding: 10px 25px;
+  background-color: #070722;
+  color: #686649;
+  font-size: 24px;
+  cursor: pointer;
 }
