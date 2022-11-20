@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>delivery form page</title>
+    </head>
+    <body>
+        <form action="#" method="get" id="form">
+            <h2>Shipping details</h2>
+            <label for="name"
+                >FIRST
+                <input id="name" type="text" placeholder="first name" />
+            </label>
+            <label for="surname"
+                >LAST
+                <input id="surname" type="text" placeholder="surname" />
+            </label>
+            <label for="date"
+                >DELIVERY DATE
+                <input type="date" name="date" id="date" />
+            </label>
+            <h3>Adress</h3>
+            <label for="street"
+                >STREET
+                <input id="street" type="text" placeholder="street" />
+            </label>
+            <label for="house"
+                >HOUSE NUMBER
+                <input id="house" type="text" placeholder="house number" />
+            </label>
+            <label for="flat"
+                >FLAT NUMBER
+                <input id="flat" type="text" placeholder="flat number" />
+            </label>
+            <h2>Payment information</h2>
+            <label for="card">
+                <input type="radio" name="card-cash" id="card" checked />
+                Card
+            </label>
+            <label for="cash">
+                <input type="radio" name="card-cash" id="cash" />
+                Cash
+            </label>
+            <h2>Choose 2 gifts (optional)</h2>
+
+            <label for="gift1">
+                <input
+                    type="checkbox"
+                    name="gift"
+                    id="gift1"
+                    value="pack-a-gift"
+                />
+                pack as a gift
+            </label>
+            <label for="gift2">
+                <input
+                    type="checkbox"
+                    name="gift"
+                    id="gift2"
+                    value="add-postcard"
+                />
+                add postcard
+            </label>
+            <label for="gift3">
+                <input
+                    type="checkbox"
+                    name="gift"
+                    id="gift3"
+                    value="provide-discount"
+                />
+                provide 2% discount to the next time
+            </label>
+            <label for="gift4">
+                <input
+                    type="checkbox"
+                    name="gift"
+                    id="gift4"
+                    value="pen-or-pencil"
+                />
+                branded pen or pencil
+            </label>
+            <button type="submit" class="submit-form-btn">SUBMIT</button>
+        </form>
+        <footer>
+            <a href="../main/index.html">Main Page</a>
+        </footer>
+    </body>
+</html>
